@@ -77,50 +77,146 @@
       <Long_Name>19:00</Long_Name>
     </Hour>
   </Hours_List>
-
-
-
-    <Subjects_List>
-
-      <Subject><Name>Estruturas de Concreto Armado</Name><Long_Name></Long_Name><Code>ECA</Code><Comments></Comments></Subject>
-      <Subject><Name>Estruturas de Aço</Name><Long_Name></Long_Name><Code>EAC</Code><Comments></Comments></Subject>
-      <Subject><Name>Estruturas de Madeira</Name><Long_Name></Long_Name><Code>EMA</Code><Comments></Comments></Subject>
-
-      <Subject><Name>Fundações e Obras de Contenção</Name><Long_Name></Long_Name><Code>FOC</Code><Comments></Comments></Subject>
-      <Subject><Name>Mecânica dos Solos</Name><Long_Name></Long_Name><Code>MDS</Code><Comments></Comments></Subject>
-      <Subject><Name>Resistência dos Materiais</Name><Long_Name></Long_Name><Code>RDM</Code><Comments></Comments></Subject>
-
-      <Subject><Name>Sistemas Estruturais I</Name><Long_Name></Long_Name><Code>SE1</Code><Comments></Comments></Subject>
-      <Subject><Name>Sistemas Estruturais II</Name><Long_Name></Long_Name><Code>SE2</Code><Comments></Comments></Subject>
-
-      <Subject><Name>Materiais de Construção</Name><Long_Name></Long_Name><Code>MAT</Code><Comments></Comments></Subject>
-      <Subject><Name>Tecnologia da Construção I</Name><Long_Name></Long_Name><Code>TC1</Code><Comments></Comments></Subject>
-      <Subject><Name>Tecnologia da Construção II</Name><Long_Name></Long_Name><Code>TC2</Code><Comments></Comments></Subject>
-
-      <Subject><Name>Construções Sustentáveis</Name><Long_Name></Long_Name><Code>CSU</Code><Comments></Comments></Subject>
-      <Subject><Name>Gestão Ambiental e Construções Sustentáveis</Name><Long_Name></Long_Name><Code>GAC</Code><Comments></Comments></Subject>
-
-      <Subject><Name>Topografia</Name><Long_Name></Long_Name><Code>TOP</Code><Comments></Comments></Subject>
-
-      <Subject><Name>Instalações Elétricas</Name><Long_Name></Long_Name><Code>IEL</Code><Comments></Comments></Subject>
-      <Subject><Name>Instalações Hidrossanitárias</Name><Long_Name></Long_Name><Code>IHS</Code><Comments></Comments></Subject>
-
-      <Subject><Name>Orçamento e Planejamento de Obras</Name><Long_Name></Long_Name><Code>OPO</Code><Comments></Comments></Subject>
-      <Subject><Name>Avaliações e Perícias</Name><Long_Name></Long_Name><Code>AVP</Code><Comments></Comments></Subject>
-      <Subject><Name>Inspeção e Manutenção Predial</Name><Long_Name></Long_Name><Code>IMP</Code><Comments></Comments></Subject>
-
-      <Subject><Name>Higiene e Segurança do Trabalho</Name><Long_Name></Long_Name><Code>HST</Code><Comments></Comments></Subject>
-
-      <Subject><Name>Projeto Integrador 2</Name><Long_Name></Long_Name><Code>PI2</Code><Comments></Comments></Subject>
-      <Subject><Name>Projeto Integrador 3</Name><Long_Name></Long_Name><Code>PI3</Code><Comments></Comments></Subject>
-
-       <Subject><Name>Atividades de Extensão III</Name><Long_Name></Long_Name><Code>EXT3</Code><Comments></Comments></Subject>
-
-    </Subjects_List>
-
-
-
-
+  <Subjects_List>
+    <Subject>
+      <Name>Estruturas de Concreto Armado</Name>
+      <Long_Name></Long_Name>
+      <Code>ECA</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Estruturas de Aço</Name>
+      <Long_Name></Long_Name>
+      <Code>EAC</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Estruturas de Madeira</Name>
+      <Long_Name></Long_Name>
+      <Code>EMA</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Fundações e Obras de Contenção</Name>
+      <Long_Name></Long_Name>
+      <Code>FOC</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Mecânica dos Solos</Name>
+      <Long_Name></Long_Name>
+      <Code>MDS</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Resistência dos Materiais</Name>
+      <Long_Name></Long_Name>
+      <Code>RDM</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Sistemas Estruturais I</Name>
+      <Long_Name></Long_Name>
+      <Code>SE1</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Sistemas Estruturais II</Name>
+      <Long_Name></Long_Name>
+      <Code>SE2</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Materiais de Construção</Name>
+      <Long_Name></Long_Name>
+      <Code>MAT</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Tecnologia da Construção I</Name>
+      <Long_Name></Long_Name>
+      <Code>TC1</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Tecnologia da Construção II</Name>
+      <Long_Name></Long_Name>
+      <Code>TC2</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Construções Sustentáveis</Name>
+      <Long_Name></Long_Name>
+      <Code>CSU</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Gestão Ambiental e Construções Sustentáveis</Name>
+      <Long_Name></Long_Name>
+      <Code>GAC</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Topografia</Name>
+      <Long_Name></Long_Name>
+      <Code>TOP</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Instalações Elétricas</Name>
+      <Long_Name></Long_Name>
+      <Code>IEL</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Instalações Hidrossanitárias</Name>
+      <Long_Name></Long_Name>
+      <Code>IHS</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Orçamento e Planejamento de Obras</Name>
+      <Long_Name></Long_Name>
+      <Code>OPO</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Avaliações e Perícias</Name>
+      <Long_Name></Long_Name>
+      <Code>AVP</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Inspeção e Manutenção Predial</Name>
+      <Long_Name></Long_Name>
+      <Code>IMP</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Higiene e Segurança do Trabalho</Name>
+      <Long_Name></Long_Name>
+      <Code>HST</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Projeto Integrador 2</Name>
+      <Long_Name></Long_Name>
+      <Code>PI2</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Projeto Integrador 3</Name>
+      <Long_Name></Long_Name>
+      <Code>PI3</Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Atividades de Extensão III</Name>
+      <Long_Name></Long_Name>
+      <Code>EXT3</Code>
+      <Comments></Comments>
+    </Subject>
+  </Subjects_List>
   <Activity_Tags_List>
   </Activity_Tags_List>
   <Teachers_List>
@@ -289,8 +385,269 @@
   <Activities_List>
   </Activities_List>
   <Buildings_List>
+    <Building>
+      <Name>A</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Comments></Comments>
+    </Building>
+    <Building>
+      <Name>B</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Comments></Comments>
+    </Building>
+    <Building>
+      <Name>C</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Comments></Comments>
+    </Building>
   </Buildings_List>
   <Rooms_List>
+    <Room>
+      <Name>A1</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>A</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>A2</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>A</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>A3</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>A</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>A4</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>A</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>A5</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>A</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>A6</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>A</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>A7</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>A</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>A8</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>A</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>A9</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>A</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>B1</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>B</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>B2</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>B</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>B3</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>B</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>B4</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>B</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>B5</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>B</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>B6</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>B</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>B7</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>B</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>B8</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>B</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>B9</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>B</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>C1</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>C</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>C2</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>C</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>C3</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>C</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>C4</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>C</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>C5</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>C</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>C6</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>C</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>C7</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>C</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>C8</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>C</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
+    <Room>
+      <Name>C9</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Building>C</Building>
+      <Capacity>30000</Capacity>
+      <Virtual>false</Virtual>
+      <Comments></Comments>
+    </Room>
   </Rooms_List>
   <Time_Constraints_List>
     <ConstraintBasicCompulsoryTime>
