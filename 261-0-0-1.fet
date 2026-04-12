@@ -274,6 +274,15 @@
       </Qualified_Subjects>
       <Comments></Comments>
     </Teacher>
+    <Teacher>
+      <Name>Douglas</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Target_Number_of_Hours>0</Target_Number_of_Hours>
+      <Qualified_Subjects>
+      </Qualified_Subjects>
+      <Comments></Comments>
+    </Teacher>
   </Teachers_List>
   <Students_List>
     <Year>
@@ -384,21 +393,441 @@
     </Year>
   </Students_List>
 
-  
-      <Activities_List>
-        <Activity>
-          <Teacher>Claudeir</Teacher>
-          <Subject>Mecânica dos Solos</Subject>
-          <Students>Tecnico em Edificacoes - Proeja</Students>
-          <Students>edifproeja-1125</Students>
-          <Duration>4</Duration>
-          <Total_Duration>4</Total_Duration>
-          <Id>1</Id>
-          <Activity_Group_Id>0</Activity_Group_Id>
-          <Active>true</Active>
-          <Comments></Comments>
-        </Activity>
-      </Activities_List>
+
+
+
+
+  <Activities_List>
+    <Activity>
+      <Teacher>Claudeir</Teacher>
+      <Subject>Mecânica dos Solos</Subject>
+      <Students>Tecnico em Edificacoes - Proeja</Students>
+      <Students>edifproeja-1125</Students>
+      <Duration>4</Duration>
+      <Total_Duration>4</Total_Duration>
+      <Id>1</Id>
+      <Activity_Group_Id>0</Activity_Group_Id>
+      <Active>true</Active>
+      <Comments></Comments>
+    </Activity>
+
+<Activity>
+    <Teacher>Adelson</Teacher>
+    <Subject>Estruturas de Concreto Armado, Aço e Madeira</Subject>
+    <Students>Tecnico Integrado em Edificacoes</Students>
+    <Students>edifint-1024</Students>
+    <Duration>5</Duration>
+    <Total_Duration>5</Total_Duration>
+    <Id>2</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Matias</Teacher>
+    <Subject>Fundações e obras de Contenção</Subject>
+    <Students>Tecnico Integrado em Edificacoes</Students>
+    <Students>edifint-1024</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>3</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Rodrigo</Teacher>
+    <Subject>Projeto Integrador 3</Subject>
+    <Students>Tecnico Integrado em Edificacoes</Students>
+    <Students>edifint-1024</Students>
+    <Duration>2</Duration>
+    <Total_Duration>2</Total_Duration>
+    <Id>4</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Rodrigo</Teacher>
+    <Subject>Construções Sustentáveis</Subject>
+    <Students>Tecnico Integrado em Edificacoes</Students>
+    <Students>edifint-1025</Students>
+    <Duration>3</Duration>
+    <Total_Duration>3</Total_Duration>
+    <Id>5</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Claudeir</Teacher>
+    <Subject>Mecânica dos Solos</Subject>
+    <Students>Tecnico Integrado em Edificacoes</Students>
+    <Students>edifint-1025</Students>
+    <Duration>3</Duration>
+    <Total_Duration>3</Total_Duration>
+    <Id>6</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Fagner</Teacher>
+    <Subject>Projeto Integrador 2</Subject>
+    <Students>Tecnico Integrado em Edificacoes</Students>
+    <Students>edifint-1025</Students>
+    <Duration>2</Duration>
+    <Total_Duration>2</Total_Duration>
+    <Id>7</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Claudeir</Teacher>
+    <Subject>Tecnologia das Construções 2</Subject>
+    <Students>Tecnico Integrado em Edificacoes</Students>
+    <Students>edifint-1025</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>8</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Douglas</Teacher>
+    <Subject>Topografia</Subject>
+    <Students>Tecnico Integrado em Edificacoes</Students>
+    <Students>edifint-1026</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>9</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Claudeir</Teacher>
+    <Subject>Materiais de construção 1</Subject>
+    <Students>Tecnico em Edificacoes - Proeja</Students>
+    <Students>edifproeja-1125</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>10</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Matias</Teacher>
+    <Subject>Resistência dos materiais</Subject>
+    <Students>Tecnico em Edificacoes - Proeja</Students>
+    <Students>edifproeja-1125</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>11</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Marco</Teacher>
+    <Subject>Tecnologia da Construção 2</Subject>
+    <Students>Tecnico em Edificacoes - Proeja</Students>
+    <Students>edifproeja-1125</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>12</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Rodrigo</Teacher>
+    <Subject>Higiene e segurança do trabalho</Subject>
+    <Students>Tecnico em Edificacoes - Proeja</Students>
+    <Students>edifproeja-1126</Students>
+    <Duration>2</Duration>
+    <Total_Duration>2</Total_Duration>
+    <Id>13</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Douglas</Teacher>
+    <Subject>Topografia</Subject>
+    <Students>Tecnico em Edificacoes - Proeja</Students>
+    <Students>edifproeja-1126</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>14</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Marco</Teacher>
+    <Subject>Avaliações e perícias</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1222</Students>
+    <Duration>3</Duration>
+    <Total_Duration>3</Total_Duration>
+    <Id>15</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Fagner</Teacher>
+    <Subject>Orçamento de projetos e obras</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1222</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>16</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Fagner</Teacher>
+    <Subject>Atividades de Extensão III</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1223</Students>
+    <Duration>6</Duration>
+    <Total_Duration>6</Total_Duration>
+    <Id>17</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Adelson</Teacher>
+    <Subject>Estruturas de Aço</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1223</Students>
+    <Duration>2</Duration>
+    <Total_Duration>2</Total_Duration>
+    <Id>18</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Matias</Teacher>
+    <Subject>Estruturas de Madeira</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1223</Students>
+    <Duration>2</Duration>
+    <Total_Duration>2</Total_Duration>
+    <Id>19</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Adelson</Teacher>
+    <Subject>Estruturas de Concreto</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1224</Students>
+    <Duration>3</Duration>
+    <Total_Duration>3</Total_Duration>
+    <Id>20</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Adelson</Teacher>
+    <Subject>Instalações Elétricas</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1224</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>21</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Adelson</Teacher>
+    <Subject>Sistemas Estruturais II</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1224</Students>
+    <Duration>3</Duration>
+    <Total_Duration>3</Total_Duration>
+    <Id>22</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Douglas</Teacher>
+    <Subject>Sistemas Estruturais I</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1225</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>23</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Marco</Teacher>
+    <Subject>Tecnologia da Construção II</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1225</Students>
+    <Duration>3</Duration>
+    <Total_Duration>3</Total_Duration>
+    <Id>24</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Marco</Teacher>
+    <Subject>Materiais de Construção</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1226</Students>
+    <Duration>5</Duration>
+    <Total_Duration>5</Total_Duration>
+    <Id>25</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Matias</Teacher>
+    <Subject>Mecânica dos Solos, Contenções e Fundações</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1226</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>26</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Marco</Teacher>
+    <Subject>Topografia</Subject>
+    <Students>Arquitetura e Urbanismo</Students>
+    <Students>arq-1226</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>27</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Douglas</Teacher>
+    <Subject>Orçamento e Planejamento de Obras</Subject>
+    <Students>Tecnico Integrado em Edificacoes</Students>
+    <Students>edifint-dp</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>28</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Rodrigo</Teacher>
+    <Subject>Gestão ambiental / Construções sustentáveis</Subject>
+    <Students>Tecnico em Edificacoes - Proeja</Students>
+    <Students>edifproeja-dp-jacyellen</Students>
+    <Duration>2</Duration>
+    <Total_Duration>2</Total_Duration>
+    <Id>29</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Claudeir</Teacher>
+    <Subject>Tecnologia da Construção I</Subject>
+    <Students>Tecnico em Edificacoes - Proeja</Students>
+    <Students>edifproeja-dp-jacyellen-cristian</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>30</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Rodrigo</Teacher>
+    <Subject>Inspeção e manutenção predial</Subject>
+    <Students>Tecnico em Edificacoes - Proeja</Students>
+    <Students>edifproeja-dp-luzia</Students>
+    <Duration>2</Duration>
+    <Total_Duration>2</Total_Duration>
+    <Id>31</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+  <Activity>
+    <Teacher>Douglas</Teacher>
+    <Subject>Instalações hidrossanitárias</Subject>
+    <Students>Tecnico em Edificacoes - Proeja</Students>
+    <Students>edifproeja-dp-luzia-jacyellen</Students>
+    <Duration>4</Duration>
+    <Total_Duration>4</Total_Duration>
+    <Id>32</Id>
+    <Activity_Group_Id>0</Activity_Group_Id>
+    <Active>true</Active>
+    <Comments></Comments>
+  </Activity>
+
+
+
+    
+  </Activities_List>
+
+
+
+
+
+
+
+
+
+
 
   <Buildings_List>
     <Building>
