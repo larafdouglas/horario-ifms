@@ -277,7 +277,7 @@
   </Teachers_List>
   <Students_List>
     <Year>
-      <Name>2026</Name>
+      <Name>Arquitetura</Name>
       <Long_Name></Long_Name>
       <Code></Code>
       <Number_of_Students>0</Number_of_Students>
@@ -297,88 +297,89 @@
       <First_Category_Is_Permanent>false</First_Category_Is_Permanent>
       <Separator> </Separator>
       <Group>
-        <Name>2026 10124</Name>
+        <Name>arq1222</Name>
         <Long_Name></Long_Name>
         <Code></Code>
         <Number_of_Students>0</Number_of_Students>
         <Comments></Comments>
-        <Subgroup>
-          <Name>2026 10124 1125</Name>
-          <Long_Name></Long_Name>
-          <Code></Code>
-          <Number_of_Students>0</Number_of_Students>
-          <Comments></Comments>
-        </Subgroup>
-        <Subgroup>
-          <Name>2026 10124 1126</Name>
-          <Long_Name></Long_Name>
-          <Code></Code>
-          <Number_of_Students>0</Number_of_Students>
-          <Comments></Comments>
-        </Subgroup>
       </Group>
       <Group>
-        <Name>2026 1025</Name>
+        <Name>arq1223</Name>
         <Long_Name></Long_Name>
         <Code></Code>
         <Number_of_Students>0</Number_of_Students>
         <Comments></Comments>
-        <Subgroup>
-          <Name>2026 1025 1125</Name>
-          <Long_Name></Long_Name>
-          <Code></Code>
-          <Number_of_Students>0</Number_of_Students>
-          <Comments></Comments>
-        </Subgroup>
-        <Subgroup>
-          <Name>2026 1025 1126</Name>
-          <Long_Name></Long_Name>
-          <Code></Code>
-          <Number_of_Students>0</Number_of_Students>
-          <Comments></Comments>
-        </Subgroup>
       </Group>
       <Group>
-        <Name>2026 1125</Name>
+        <Name>arq1224</Name>
         <Long_Name></Long_Name>
         <Code></Code>
         <Number_of_Students>0</Number_of_Students>
         <Comments></Comments>
-        <Subgroup>
-          <Name>2026 10124 1125</Name>
-          <Long_Name></Long_Name>
-          <Code></Code>
-          <Number_of_Students>0</Number_of_Students>
-          <Comments></Comments>
-        </Subgroup>
-        <Subgroup>
-          <Name>2026 1025 1125</Name>
-          <Long_Name></Long_Name>
-          <Code></Code>
-          <Number_of_Students>0</Number_of_Students>
-          <Comments></Comments>
-        </Subgroup>
       </Group>
       <Group>
-        <Name>2026 1126</Name>
+        <Name>arq1225</Name>
         <Long_Name></Long_Name>
         <Code></Code>
         <Number_of_Students>0</Number_of_Students>
         <Comments></Comments>
-        <Subgroup>
-          <Name>2026 10124 1126</Name>
-          <Long_Name></Long_Name>
-          <Code></Code>
-          <Number_of_Students>0</Number_of_Students>
-          <Comments></Comments>
-        </Subgroup>
-        <Subgroup>
-          <Name>2026 1025 1126</Name>
-          <Long_Name></Long_Name>
-          <Code></Code>
-          <Number_of_Students>0</Number_of_Students>
-          <Comments></Comments>
-        </Subgroup>
+      </Group>
+    </Year>
+    <Year>
+      <Name>Tecnico em Edificacoes - Integrado</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Number_of_Students>0</Number_of_Students>
+      <Comments></Comments>
+      <!-- The information regarding categories, divisions of each category, and separator is only used in the divide year automatically by categories dialog. -->
+      <Number_of_Categories>0</Number_of_Categories>
+      <First_Category_Is_Permanent>false</First_Category_Is_Permanent>
+      <Separator> </Separator>
+      <Group>
+        <Name>edifint-1024</Name>
+        <Long_Name></Long_Name>
+        <Code></Code>
+        <Number_of_Students>0</Number_of_Students>
+        <Comments></Comments>
+      </Group>
+      <Group>
+        <Name>edifint-1025</Name>
+        <Long_Name></Long_Name>
+        <Code></Code>
+        <Number_of_Students>0</Number_of_Students>
+        <Comments></Comments>
+      </Group>
+      <Group>
+        <Name>edifint-1026</Name>
+        <Long_Name></Long_Name>
+        <Code></Code>
+        <Number_of_Students>0</Number_of_Students>
+        <Comments></Comments>
+      </Group>
+    </Year>
+    <Year>
+      <Name>Tecnico em Edificacoes - Proeja</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Number_of_Students>0</Number_of_Students>
+      <Comments></Comments>
+      <!-- The information regarding categories, divisions of each category, and separator is only used in the divide year automatically by categories dialog. -->
+      <Number_of_Categories>0</Number_of_Categories>
+      <First_Category_Is_Permanent>false</First_Category_Is_Permanent>
+      <Separator> </Separator>
+      <Group>
+        <Name>edifproeja-1125</Name>
+        <Long_Name></Long_Name>
+        <Code></Code>
+        <Number_of_Students>0</Number_of_Students>
+        <Comments></Comments>
+      </Group>
+      <Group>
+        <Name>edifproeja-1126</Name>
+        <Long_Name></Long_Name>
+        <Code></Code>
+        <Number_of_Students>0</Number_of_Students>
+        <Comments></Comments>
       </Group>
     </Year>
   </Students_List>
