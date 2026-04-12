@@ -383,20 +383,23 @@
       </Group>
     </Year>
   </Students_List>
-  <Activities_List>
-    <Activity>
-      <Teacher>Claudeir</Teacher>
-      <Subject>Mecânica dos Solos</Subject>
-      <Students>Tecnico em Edificacoes - Proeja</Students>
-      <Students>edifproeja-1125</Students>
-      <Duration>4</Duration>
-      <Total_Duration>4</Total_Duration>
-      <Id>1</Id>
-      <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
-      <Comments></Comments>
-    </Activity>
-  </Activities_List>
+
+  
+      <Activities_List>
+        <Activity>
+          <Teacher>Claudeir</Teacher>
+          <Subject>Mecânica dos Solos</Subject>
+          <Students>Tecnico em Edificacoes - Proeja</Students>
+          <Students>edifproeja-1125</Students>
+          <Duration>4</Duration>
+          <Total_Duration>4</Total_Duration>
+          <Id>1</Id>
+          <Activity_Group_Id>0</Activity_Group_Id>
+          <Active>true</Active>
+          <Comments></Comments>
+        </Activity>
+      </Activities_List>
+
   <Buildings_List>
     <Building>
       <Name>A</Name>
