@@ -1,0 +1,17 @@
+COMO USAR
+ETAPA 1
+
+baixar a panilha e com o etapa_1.py exporta-la para csv.
+
+
+ETAPA 2
+com o etapa_2.py deixar todos os arquivos em um único
+
+
+ETAPA 3
+com o etapa_3.py é necessário o arquivo de entrada estar nomeado de entrada.csv
+Ele simplesmente acrescente a coluna EAD e TS e atribui o valor 0 a tudo 
+
+
+ETAPA 4
+python etapa_4.py entrada.csv saida.fet
