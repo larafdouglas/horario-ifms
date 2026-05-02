@@ -1406,6 +1406,20 @@
       <Printable>true</Printable>
       <Comments></Comments>
     </Activity_Tag>
+    <Activity_Tag>
+      <Name>lab</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Printable>true</Printable>
+      <Comments></Comments>
+    </Activity_Tag>
+    <Activity_Tag>
+      <Name>atelie</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Printable>true</Printable>
+      <Comments></Comments>
+    </Activity_Tag>
   </Activity_Tags_List>
   <Teachers_List>
     <Teacher>
@@ -3488,6 +3502,7 @@
       <Teacher>Felipo</Teacher>
       <Subject>Atividades de Extensão III</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>lab</Activity_Tag>
       <Students>arq1223</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -3500,6 +3515,7 @@
       <Teacher>Felipo</Teacher>
       <Subject>Atividades de Extensão III</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>lab</Activity_Tag>
       <Students>arq1223</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -3512,6 +3528,7 @@
       <Teacher>Felipo</Teacher>
       <Subject>Atividades de Extensão III</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>lab</Activity_Tag>
       <Students>arq1223</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -4100,6 +4117,7 @@
       <Teacher>Monica</Teacher>
       <Subject>Plástica e Expressão Gráfica II</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>atelie</Activity_Tag>
       <Students>arq1226</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -4112,6 +4130,7 @@
       <Teacher>Monica</Teacher>
       <Subject>Plástica e Expressão Gráfica II</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>atelie</Activity_Tag>
       <Students>arq1226</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -4124,6 +4143,7 @@
       <Teacher>Monica</Teacher>
       <Subject>Plástica e Expressão Gráfica II</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>atelie</Activity_Tag>
       <Students>arq1226</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -4136,6 +4156,7 @@
       <Teacher>Monica</Teacher>
       <Subject>Plástica e Expressão Gráfica II</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>atelie</Activity_Tag>
       <Students>arq1226</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -4148,6 +4169,7 @@
       <Teacher>Monica</Teacher>
       <Subject>Plástica e Expressão Gráfica II</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>atelie</Activity_Tag>
       <Students>arq1226</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -29754,6 +29776,44 @@
       <Active>true</Active>
       <Comments>Arquitetura 1225: manhã; sábado proibido</Comments>
     </ConstraintActivityPreferredTimeSlots>
+    <ConstraintActivityPreferredStartingTime>
+      <Weight_Percentage>100</Weight_Percentage>
+      <Activity_Id>142</Activity_Id>
+      <Day>SEG</Day>
+      <Hour>7:00 7:45</Hour>
+      <Permanently_Locked>false</Permanently_Locked>
+      <Active>true</Active>
+      <Comments></Comments>
+    </ConstraintActivityPreferredStartingTime>
+    <ConstraintActivityPreferredStartingTime>
+      <Weight_Percentage>100</Weight_Percentage>
+      <Activity_Id>144</Activity_Id>
+      <Day>SEG</Day>
+      <Hour>7:45
+8:30</Hour>
+      <Permanently_Locked>false</Permanently_Locked>
+      <Active>true</Active>
+      <Comments></Comments>
+    </ConstraintActivityPreferredStartingTime>
+    <ConstraintActivityPreferredStartingTime>
+      <Weight_Percentage>100</Weight_Percentage>
+      <Activity_Id>143</Activity_Id>
+      <Day>SEG</Day>
+      <Hour>8:30 9:15</Hour>
+      <Permanently_Locked>false</Permanently_Locked>
+      <Active>true</Active>
+      <Comments></Comments>
+    </ConstraintActivityPreferredStartingTime>
+    <ConstraintActivityPreferredStartingTime>
+      <Weight_Percentage>100</Weight_Percentage>
+      <Activity_Id>141</Activity_Id>
+      <Day>SEG</Day>
+      <Hour>9:35
+10:20</Hour>
+      <Permanently_Locked>false</Permanently_Locked>
+      <Active>true</Active>
+      <Comments></Comments>
+    </ConstraintActivityPreferredStartingTime>
   </Time_Constraints_List>
   <Space_Constraints_List>
     <ConstraintBasicCompulsorySpace>
@@ -29792,7 +29852,7 @@
       <Comments></Comments>
     </ConstraintStudentsSetHomeRoom>
     <ConstraintStudentsSetHomeRoom>
-      <Weight_Percentage>100</Weight_Percentage>
+      <Weight_Percentage>95</Weight_Percentage>
       <Students>arq1226</Students>
       <Room>Sala B10</Room>
       <Active>true</Active>
@@ -29881,10 +29941,30 @@
     </ConstraintStudentsSetHomeRooms>
     <ConstraintStudentsMaxRoomChangesPerDay>
       <Weight_Percentage>100</Weight_Percentage>
-      <Max_Room_Changes_Per_Day>2</Max_Room_Changes_Per_Day>
+      <Max_Room_Changes_Per_Day>1</Max_Room_Changes_Per_Day>
       <Active>true</Active>
       <Comments></Comments>
     </ConstraintStudentsMaxRoomChangesPerDay>
+    <ConstraintActivityTagPreferredRooms>
+      <Weight_Percentage>100</Weight_Percentage>
+      <Activity_Tag>lab</Activity_Tag>
+      <Number_of_Preferred_Rooms>6</Number_of_Preferred_Rooms>
+      <Preferred_Room>Lab C13</Preferred_Room>
+      <Preferred_Room>Lab C11</Preferred_Room>
+      <Preferred_Room>Lab C9</Preferred_Room>
+      <Preferred_Room>Lab B12</Preferred_Room>
+      <Preferred_Room>Lab B3</Preferred_Room>
+      <Preferred_Room>Lab A2</Preferred_Room>
+      <Active>true</Active>
+      <Comments></Comments>
+    </ConstraintActivityTagPreferredRooms>
+    <ConstraintActivityTagPreferredRoom>
+      <Weight_Percentage>100</Weight_Percentage>
+      <Activity_Tag>atelie</Activity_Tag>
+      <Room>Sala C12</Room>
+      <Active>true</Active>
+      <Comments></Comments>
+    </ConstraintActivityTagPreferredRoom>
   </Space_Constraints_List>
   <Timetable_Generation_Options_List>
   </Timetable_Generation_Options_List>
