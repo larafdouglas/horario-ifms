@@ -1,0 +1,10 @@
+﻿Soft conflicts of 2026-2.fet
+Generated with FET 7.5.8 on 5/2/26 4:52 PM
+
+Number of broken soft constraints: 0
+Total soft conflicts: 0
+
+Soft conflicts list (in decreasing order):
+
+
+End of file.
