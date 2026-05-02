@@ -1,0 +1,11 @@
+﻿Soft conflicts of 2026-2.fet
+Generated with FET 7.5.8 on 5/2/26 7:54 PM
+
+Number of broken soft constraints: 1
+Total soft conflicts: 0.95
+
+Soft conflicts list (in decreasing order):
+
+Space constraint students set home room broken for activity with id 126 (1 - Marta - Metodologia Científica - manha - arq1226). This increases the conflicts total by 0.95
+
+End of file.
