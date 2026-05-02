@@ -1,0 +1,82 @@
+ETAPA - RESTRIÇÕES APLICADAS ÀS TURMAS DE ARQUITETURA
+- Todas as atividades de Arquitetura foram restringidas à manhã.
+- Sábado foi proibido para Arquitetura, pois não aparece nos slots permitidos.
+- Turma de Arquitetura com maior carga horária: 1226.
+- Apenas essa turma recebeu 1 tempo extra no período da tarde.
+- Nenhuma restrição foi aplicada aos demais cursos.
+
+AVISOS:
+CH presencial, EAD e TS zerados em '#REF!'
+CH inválida em '#REF!'
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '15.0', 'ead': '0', 'ts': '0', 'professor': 'Cibele', 'area': '2.0', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '17.0', 'ead': '0', 'ts': '0', 'professor': 'Daniel', 'area': '3.0', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '15.0', 'ead': '0', 'ts': '0', 'professor': 'Felipo', 'area': '4.0', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '15.0', 'ead': '0', 'ts': '0', 'professor': 'Guilherme', 'area': '5.0', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '16.0', 'ead': '0', 'ts': '0', 'professor': 'Janine', 'area': '6.0', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '17.0', 'ead': '0', 'ts': '0', 'professor': 'Marta', 'area': '7.0', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '15.0', 'ead': '0', 'ts': '0', 'professor': 'Monica', 'area': '8.0', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '15.0', 'ead': '0', 'ts': '0', 'professor': 'Tiago', 'area': '9.0', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '8', 'ead': '0', 'ts': '0', 'professor': '', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Professor vazio em 'Biologia 3'
+Professor vazio em 'Biologia 4'
+Professor vazio em 'Biologia 2'
+Professor vazio em 'Biologia'
+Professor vazio em 'Biologia 3'
+Professor vazio em 'Biologia 4'
+Professor vazio em 'Biologia 1'
+Professor vazio em 'Biologia 2'
+Professor vazio em 'Biologia 1'
+Professor vazio em 'Biologia 1'
+Professor vazio em 'Biologia 1'
+Professor vazio em 'Biologia 2'
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '24', 'ead': '0', 'ts': '0', 'professor': '', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': 'MÉDIA', 'area': '#REF!', 'periodo': 'Média s/ Adelson', 'obs_coord': '#REF!', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': 'CH', 'ead': '0', 'ts': '0', 'professor': 'PROFESSORES', 'area': '7', 'periodo': 'Média s/ Adelson s/ Marco', 'obs_coord': '#REF!', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '0', 'ead': '0', 'ts': '0', 'professor': 'Adelson', 'area': '', 'periodo': '', 'obs_coord': '#REF!', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '11', 'ead': '0', 'ts': '0', 'professor': 'Claudeir', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '18', 'ead': '0', 'ts': '0', 'professor': 'Douglas', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '19', 'ead': '0', 'ts': '0', 'professor': 'Fagner', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '19', 'ead': '0', 'ts': '0', 'professor': 'Marco', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '18', 'ead': '0', 'ts': '0', 'professor': 'Matias', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '17', 'ead': '0', 'ts': '0', 'professor': 'Rodrigo', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '102', 'ead': '0', 'ts': '0', 'professor': '', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '#REF!', 'ead': '0', 'ts': '0', 'professor': 'Faltam', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': '', 'extra_24': ''}
+Professor vazio em 'História 4'
+Professor vazio em 'História 2'
+Professor vazio em 'História 1'
+Professor vazio em 'História 4'
+Professor vazio em 'História 2'
+Professor vazio em 'História 1'
+Professor vazio em 'História'
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '16', 'ead': '0', 'ts': '0', 'professor': '', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': 'CH', 'periodo': 'CH', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Professor vazio em '15.8'
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '11', 'periodo': '11', 'obs_coord': 'Aurelio', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '14', 'periodo': '14', 'obs_coord': 'Ana Cláudia', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '19', 'periodo': '19', 'obs_coord': 'Alan', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '16', 'periodo': '16', 'obs_coord': 'Jean', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '15', 'periodo': '15', 'obs_coord': 'Leandro', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '16', 'periodo': '16', 'obs_coord': 'Lucas', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '16', 'periodo': '16', 'obs_coord': 'Patrik', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '16', 'periodo': '16', 'obs_coord': 'Roberto/Junior', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '15', 'periodo': '15', 'obs_coord': 'Yujuan', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '16', 'periodo': '16', 'obs_coord': 'Murilo', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '15', 'periodo': '15', 'obs_coord': 'PSS/Karol', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '13', 'ead': '0', 'ts': '0', 'professor': 'Mirélly', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '15', 'ead': '0', 'ts': '0', 'professor': 'Ewerton', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '26', 'ead': '0', 'ts': '0', 'professor': 'PSS/Estevão/Ana', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '16', 'ead': '0', 'ts': '0', 'professor': '', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Professor vazio em 'Química 4'
+Professor vazio em 'Química 2'
+Professor vazio em 'Química 1'
+Professor vazio em 'Química 4'
+Professor vazio em 'Química 3'
+Professor vazio em 'Química 1'
+Professor vazio em 'Química 2'
+Professor vazio em 'Sociologia'
+Professor vazio em 'Sociologia 2'
+Professor vazio em 'Sociologia 4'
+Professor vazio em 'Sociologia 4'
+Professor vazio em 'Sociologia 4'
+Professor vazio em 'Sociologia da Educação'
+Professor vazio em 'Sociologia Urbana'

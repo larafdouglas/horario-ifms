@@ -1,0 +1,15 @@
+﻿Soft conflicts of 2026-2.fet
+Generated with FET 7.5.8 on 5/2/26 11:46 AM
+
+Number of broken soft constraints: 5
+Total soft conflicts: 5.7
+
+Soft conflicts list (in decreasing order):
+
+Time constraint activity preferred time slots broken for activity with id=124 (2 - Marta - Optativa - Tópicos Especiais - Orientação - manha - arq1222) on 2 hours, increases conflicts total by 1.9
+Time constraint activity preferred time slots broken for activity with id=50 (1 - Alisson - Projeto Integrado de Arquitetura, Urbanismo e Paisagismo - manha - arq1222) on 1 hours, increases conflicts total by 0.95
+Time constraint activity preferred time slots broken for activity with id=146 (1 - Mônica - Optativa - Tópicos Especiais - Orientação - manha - arq1222) on 1 hours, increases conflicts total by 0.95
+Time constraint activity preferred time slots broken for activity with id=219 (1 - Fagner - Orçamento de projetos e obras - manha - arq1222) on 1 hours, increases conflicts total by 0.95
+Time constraint activity preferred time slots broken for activity with id=233 (1 - Marco - Avaliações e perícias - manha - arq1222) on 1 hours, increases conflicts total by 0.95
+
+End of file.
