@@ -1,0 +1,47 @@
+﻿Soft conflicts of 2026-2.fet
+Generated with FET 7.5.8 on 5/3/26 3:05 AM
+
+Number of broken soft constraints: 37
+Total soft conflicts: 37.41
+
+Soft conflicts list (in decreasing order):
+
+Time constraint activities preferred time slots broken for activity with id=56 (2 - Cibele - Optativa - Tópicos Especiais - Orientação - manha - arq1222) on 2 hours, increases conflicts total by 1.98
+Time constraint activities preferred time slots broken for activity with id=483 (2 - Mirélly - Matemática 2 - manha,int - edifint-1026) on 2 hours, increases conflicts total by 1.98
+Time constraint activities preferred time slots broken for activity with id=58 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=59 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=60 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=61 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=258 (1 - Matias - Mecânica dos Solos, Contenções e Fundações - manha - arq1226) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred starting times broken for activity with id=157 (1 - Tiago - Desenho da construção civil I - noite - edifproeja-dp-daira), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=212 (2 - Douglas - Instalações hidrossanitárias - noite - edifproeja-dp-luzia-e-jacyellen), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=264 (2 - Rodrigo - Mecânica dos solos - noite - edifproeja-1125), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=283 (1 - Nilson - Física - noite - proejas-re-1125), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=312 (1 - Alan - Engenharia de Software - noite - liccomp-2224), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=313 (1 - Alan - Engenharia de Software - noite - liccomp-2224), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=317 (1 - Alan - Prática de Ensino III - noite - liccomp-dp), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=324 (1 - Alan - Gerência de Projetos em Tecnologia da Informação - noite - liccomp-dp), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=325 (1 - Alan - Gerência de Projetos em Tecnologia da Informação - noite - liccomp-dp), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=336 (1 - Ana Cláudia - Informática Básica - noite - infproeja-2326), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=345 (1 - André - Padrões de Projeto - noite - liccomp-dp), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=351 (1 - Aurelio - Frameworks - noite - infproeja-2324), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=359 (1 - Aurelio - *** Estágio Supervionado 3 - noite - liccomp-dp-e-2223), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=393 (1 - Lucas - Programação com Estrutuda de Dados - noite - liccomp-2225), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=395 (1 - Lucas - Algoritmos e Lógica de Programação - noite - liccomp-2226), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=398 (1 - Lucas - Algoritmos e Lógica de Programação - noite - liccomp-2226), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=402 (1 - Murilo - Atividades Acadêmicas de Extensão II - noite - liccomp-2225), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=405 (1 - Murilo - Atividades Acadêmicas de Extensão I - noite - liccomp-2226), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=406 (1 - Murilo - Atividades Acadêmicas de Extensão I - noite - liccomp-2226), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=418 (1 - Patrik - Redes de Computadores - noite - liccomp-2225), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=427 (1 - Patrik - Sistemas Operacionais e Manutenção - noite - infproeja-2326), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=442 (1 - Roberto,Junior - Projeto de Banco de Dados - noite - liccomp-2225), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=451 (1 - Roberto,Junior - Informática Aplicada à Web - noite - infproeja-2326), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=466 (1 - Yujuan - Tópicos em Computação I - noite - infproeja-2325), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=518 (1 - Moacir - Atividades Acadêmicas de Extensão IV - noite - liccomp-2223), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=520 (1 - Moacir - Atividades Acadêmicas de Extensão IV - noite - liccomp-2223), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=521 (1 - Moacir - Atividades Acadêmicas de Extensão IV - noite - liccomp-2223), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=523 (1 - Moacir - Atividades Acadêmicas de Extensão IV - noite - liccomp-2223), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=524 (2 - Moacir - Avaliação do Ensino e da Aprendizagem - noite - liccomp-2225), increases conflicts total by 0.95
+Time constraint activities preferred starting times broken for activity with id=576 (1 - Victor - Língua Portuguesa e Literatura Brasileira 1 - noite - proejas-re-2326-e-1126), increases conflicts total by 0.95
+
+End of file.
