@@ -1,0 +1,41 @@
+﻿Soft conflicts of 2026-2.fet
+Generated with FET 7.5.8 on 5/2/26 8:22 PM
+
+Number of broken soft constraints: 31
+Total soft conflicts: 36.1
+
+Soft conflicts list (in decreasing order):
+
+Time constraint activities preferred time slots broken for activity with id=56 (2 - Cibele - Optativa - Tópicos Especiais - Orientação - manha - arq1222) on 2 hours, increases conflicts total by 1.9
+Time constraint activities preferred time slots broken for activity with id=187 (2 - Vinícius - Educação Física 4 - manha - edifint-1025) on 2 hours, increases conflicts total by 1.9
+Time constraint activities preferred time slots broken for activity with id=262 (2 - Rodrigo - Projeto Integrador 3 - manha - edifint-1024) on 2 hours, increases conflicts total by 1.9
+Time constraint activities preferred time slots broken for activity with id=273 (2 - Ricardo - Filosofia 4 - manha - edifint-1025) on 2 hours, increases conflicts total by 1.9
+Time constraint activities preferred time slots broken for activity with id=307 (2 - Danilo - Geografia 3 - manha - inf2025) on 2 hours, increases conflicts total by 1.9
+Time constraint activities preferred time slots broken for activity with id=379 (2 - Leandro - Sistema operacionais - manha - inf2026) on 2 hours, increases conflicts total by 1.9
+Time constraint activities preferred time slots broken for activity with id=563 (2 - Mariana - Língua Estrangeira Moderna - Inglês 4 - manha - inf2024) on 2 hours, increases conflicts total by 1.9
+Time constraint activities preferred time slots broken for activity with id=58 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=60 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=61 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=62 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=195 (1 - Claudeir - Tecnologia das Construções 2 - manha - edifint-1025) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=196 (1 - Claudeir - Tecnologia das Construções 2 - manha - edifint-1025) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=203 (1 - Douglas - Topografia - manha - edifint-1026) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=249 (1 - Matias - Estruturas de Concreto Armado, Aço e Madeira - manha - edifint-1024) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=258 (1 - Matias - Mecânica dos Solos, Contenções e Fundações - manha - arq1226) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=296 (1 - Antonio - Física 4 - manha - inf2025) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=299 (1 - Antonio - Física 2 - manha - inf2026) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=339 (1 - André - Linguagem de Programação 1 - manha - infdp) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=361 (1 - Jean - Desenvolvimento Web - manha - inf2025) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=365 (1 - Jean - Projeto de Tópicos especiais de informática 1 - manha - inf2026) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=369 (1 - Jean - Programação Front-end - manha - inf2026) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=371 (1 - Jean - Programação Front-end - manha - inf2026) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=454 (1 - Yujuan - Projeto de Tópicos Especiais de Informática 1 - manha - inf2025) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=468 (1 - Ewerton - Matemática 4 - manha - edifint-1025) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=474 (1 - Ewerton - Matemática 3 - manha - infdp) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=481 (1 - Ewerton - Matemática 6 - manha - inf2024) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=484 (1 - Mirélly - Matemática 2 - manha - edifint-1026) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=488 (1 - Mirélly - Matemática 2 - manha - inf2026) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=490 (1 - Mirélly - Matemática 2 - manha - edifint-dp) on 1 hours, increases conflicts total by 0.95
+Time constraint activities preferred time slots broken for activity with id=533 (1 - Gustavo - Língua Portuguesa e Literatura Brasileira 6 - manha - edifint-1024) on 1 hours, increases conflicts total by 0.95
+
+End of file.
