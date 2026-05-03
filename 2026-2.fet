@@ -3850,8 +3850,8 @@
       <Subject>Projeto Arquitetônico IV / Projeto 4</Subject>
       <Activity_Tag>manha</Activity_Tag>
       <Students>arq1224</Students>
-      <Duration>1</Duration>
-      <Total_Duration>1</Total_Duration>
+      <Duration>3</Duration>
+      <Total_Duration>3</Total_Duration>
       <Id>111</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
       <Active>true</Active>
@@ -3866,7 +3866,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>112</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -3878,7 +3878,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>113</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -3886,8 +3886,8 @@
       <Subject>Projeto Arquitetônico IV / Projeto 4</Subject>
       <Activity_Tag>manha</Activity_Tag>
       <Students>arq1224</Students>
-      <Duration>1</Duration>
-      <Total_Duration>1</Total_Duration>
+      <Duration>2</Duration>
+      <Total_Duration>2</Total_Duration>
       <Id>114</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
       <Active>true</Active>
@@ -3902,7 +3902,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>115</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -3910,8 +3910,8 @@
       <Subject>Projeto Arquitetônico IV / Projeto 4</Subject>
       <Activity_Tag>manha</Activity_Tag>
       <Students>arq1224</Students>
-      <Duration>1</Duration>
-      <Total_Duration>1</Total_Duration>
+      <Duration>2</Duration>
+      <Total_Duration>2</Total_Duration>
       <Id>116</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
       <Active>true</Active>
@@ -3926,7 +3926,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>117</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -3959,8 +3959,8 @@
       <Subject>Introdução ao trabalho de Conclusão de Curso</Subject>
       <Activity_Tag>manha</Activity_Tag>
       <Students>arq1222</Students>
-      <Duration>1</Duration>
-      <Total_Duration>1</Total_Duration>
+      <Duration>3</Duration>
+      <Total_Duration>3</Total_Duration>
       <Id>120</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
       <Active>true</Active>
@@ -3975,7 +3975,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>121</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -3987,7 +3987,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>122</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
