@@ -1,0 +1,10 @@
+﻿Soft conflicts of comecando_de_novo.fet
+Generated with FET 7.5.8 on 5/2/26 9:28 PM
+
+Number of broken soft constraints: 0
+Total soft conflicts: 0
+
+Soft conflicts list (in decreasing order):
+
+
+End of file.

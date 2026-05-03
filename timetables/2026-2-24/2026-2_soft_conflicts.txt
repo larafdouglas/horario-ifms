@@ -1,0 +1,20 @@
+﻿Soft conflicts of 2026-2.fet
+Generated with FET 7.5.8 on 5/2/26 9:50 PM
+
+Number of broken soft constraints: 10
+Total soft conflicts: 11.88
+
+Soft conflicts list (in decreasing order):
+
+Time constraint activities preferred time slots broken for activity with id=56 (2 - Cibele - Optativa - Tópicos Especiais - Orientação - manha - arq1222) on 2 hours, increases conflicts total by 1.98
+Time constraint activities preferred time slots broken for activity with id=562 (2 - Mariana - Língua Estrangeira Moderna - Inglês 4 - manha - edifint-1024) on 2 hours, increases conflicts total by 1.98
+Time constraint activities preferred time slots broken for activity with id=57 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=58 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=60 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=62 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=258 (1 - Matias - Mecânica dos Solos, Contenções e Fundações - manha - arq1226) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=386 (1 - Lucas - Linguagem de Programação 2 - manha - inf2026) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=478 (1 - Ewerton - Matemática 5 - manha - infdp) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=552 (1 - Joel - Língua Portuguesa e Literatura Brasileira 2 - manha - edifint-1026) on 1 hours, increases conflicts total by 0.99
+
+End of file.

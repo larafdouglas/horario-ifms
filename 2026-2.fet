@@ -1376,6 +1376,42 @@
       <Code></Code>
       <Comments></Comments>
     </Subject>
+    <Subject>
+      <Name>Sociologia 2</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Quimica 2</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Biologia 2</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Quimica 1</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Biologia 1</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Comments></Comments>
+    </Subject>
+    <Subject>
+      <Name>Quimica 3</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Comments></Comments>
+    </Subject>
   </Subjects_List>
   <Activity_Tags_List>
     <Activity_Tag>
@@ -1863,6 +1899,33 @@
     </Teacher>
     <Teacher>
       <Name>Victor</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Target_Number_of_Hours>0</Target_Number_of_Hours>
+      <Qualified_Subjects>
+      </Qualified_Subjects>
+      <Comments></Comments>
+    </Teacher>
+    <Teacher>
+      <Name>Leonardo</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Target_Number_of_Hours>0</Target_Number_of_Hours>
+      <Qualified_Subjects>
+      </Qualified_Subjects>
+      <Comments></Comments>
+    </Teacher>
+    <Teacher>
+      <Name>Silvio</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Target_Number_of_Hours>0</Target_Number_of_Hours>
+      <Qualified_Subjects>
+      </Qualified_Subjects>
+      <Comments></Comments>
+    </Teacher>
+    <Teacher>
+      <Name>PSS-Biologia</Name>
       <Long_Name></Long_Name>
       <Code></Code>
       <Target_Number_of_Hours>0</Target_Number_of_Hours>
@@ -4838,9 +4901,10 @@
       <Teacher>Douglas</Teacher>
       <Subject>Topografia</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>lab</Activity_Tag>
       <Students>edifint-1026</Students>
-      <Duration>1</Duration>
-      <Total_Duration>1</Total_Duration>
+      <Duration>3</Duration>
+      <Total_Duration>3</Total_Duration>
       <Id>201</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
       <Active>true</Active>
@@ -4855,7 +4919,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>202</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -5883,8 +5947,8 @@
       <Subject>Física 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
       <Students>edifint-1026</Students>
-      <Duration>1</Duration>
-      <Total_Duration>1</Total_Duration>
+      <Duration>3</Duration>
+      <Total_Duration>3</Total_Duration>
       <Id>288</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
       <Active>true</Active>
@@ -5899,7 +5963,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>289</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -5911,7 +5975,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>290</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -8249,8 +8313,8 @@
       <Subject>Matemática 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
       <Students>edifint-1026</Students>
-      <Duration>1</Duration>
-      <Total_Duration>1</Total_Duration>
+      <Duration>2</Duration>
+      <Total_Duration>2</Total_Duration>
       <Id>483</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
       <Active>true</Active>
@@ -8277,7 +8341,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>485</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -9105,8 +9169,8 @@
       <Subject>Língua Portuguesa e Literatura Brasileira 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
       <Students>edifint-1026</Students>
-      <Duration>1</Duration>
-      <Total_Duration>1</Total_Duration>
+      <Duration>2</Duration>
+      <Total_Duration>2</Total_Duration>
       <Id>551</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
       <Active>true</Active>
@@ -9133,7 +9197,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>553</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -9452,6 +9516,66 @@
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
       <Id>580</Id>
+      <Activity_Group_Id>0</Activity_Group_Id>
+      <Active>true</Active>
+      <Comments></Comments>
+    </Activity>
+    <Activity>
+      <Teacher>Leonardo</Teacher>
+      <Subject>Sociologia 2</Subject>
+      <Activity_Tag>manha</Activity_Tag>
+      <Students>edifint-1026</Students>
+      <Duration>1</Duration>
+      <Total_Duration>1</Total_Duration>
+      <Id>581</Id>
+      <Activity_Group_Id>0</Activity_Group_Id>
+      <Active>true</Active>
+      <Comments></Comments>
+    </Activity>
+    <Activity>
+      <Teacher>Silvio</Teacher>
+      <Subject>Quimica 1</Subject>
+      <Activity_Tag>manha</Activity_Tag>
+      <Students>edifint-1026</Students>
+      <Duration>2</Duration>
+      <Total_Duration>2</Total_Duration>
+      <Id>582</Id>
+      <Activity_Group_Id>0</Activity_Group_Id>
+      <Active>true</Active>
+      <Comments></Comments>
+    </Activity>
+    <Activity>
+      <Teacher>PSS-Biologia</Teacher>
+      <Subject>Biologia 1</Subject>
+      <Activity_Tag>manha</Activity_Tag>
+      <Students>edifint-1026</Students>
+      <Duration>2</Duration>
+      <Total_Duration>2</Total_Duration>
+      <Id>583</Id>
+      <Activity_Group_Id>0</Activity_Group_Id>
+      <Active>true</Active>
+      <Comments></Comments>
+    </Activity>
+    <Activity>
+      <Teacher>PSS-Biologia</Teacher>
+      <Subject>Biologia 2</Subject>
+      <Activity_Tag>manha</Activity_Tag>
+      <Students>edifint-1025</Students>
+      <Duration>2</Duration>
+      <Total_Duration>2</Total_Duration>
+      <Id>584</Id>
+      <Activity_Group_Id>0</Activity_Group_Id>
+      <Active>true</Active>
+      <Comments></Comments>
+    </Activity>
+    <Activity>
+      <Teacher>Silvio</Teacher>
+      <Subject>Quimica 3</Subject>
+      <Activity_Tag>manha</Activity_Tag>
+      <Students>edifint-1025</Students>
+      <Duration>3</Duration>
+      <Total_Duration>3</Total_Duration>
+      <Id>585</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
       <Active>true</Active>
       <Comments></Comments>
@@ -29340,7 +29464,7 @@
       <Comments></Comments>
     </ConstraintMinDaysBetweenActivities>
     <ConstraintActivitiesPreferredTimeSlots>
-      <Weight_Percentage>95</Weight_Percentage>
+      <Weight_Percentage>99</Weight_Percentage>
       <Teacher></Teacher>
       <Students></Students>
       <Subject></Subject>
