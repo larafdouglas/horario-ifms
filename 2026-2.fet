@@ -1469,6 +1469,13 @@
       <Printable>true</Printable>
       <Comments></Comments>
     </Activity_Tag>
+    <Activity_Tag>
+      <Name>int</Name>
+      <Long_Name></Long_Name>
+      <Code></Code>
+      <Printable>true</Printable>
+      <Comments></Comments>
+    </Activity_Tag>
   </Activity_Tags_List>
   <Teachers_List>
     <Teacher>
@@ -3926,6 +3933,7 @@
       <Teacher>Janine</Teacher>
       <Subject>Projeto Integrador 1</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -4279,6 +4287,7 @@
       <Teacher>Monica</Teacher>
       <Subject>Projeto Arquitetônico</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>4</Duration>
       <Total_Duration>4</Total_Duration>
@@ -4700,6 +4709,7 @@
       <Teacher>Rafaela</Teacher>
       <Subject>Arte 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -4760,6 +4770,7 @@
       <Teacher>Vinícius</Teacher>
       <Subject>Educação Física 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>2</Duration>
       <Total_Duration>2</Total_Duration>
@@ -4917,6 +4928,7 @@
       <Subject>Topografia</Subject>
       <Activity_Tag>manha</Activity_Tag>
       <Activity_Tag>lab</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>3</Duration>
       <Total_Duration>3</Total_Duration>
@@ -4941,6 +4953,7 @@
       <Teacher>Douglas</Teacher>
       <Subject>Topografia</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -5793,6 +5806,7 @@
       <Teacher>Ricardo</Teacher>
       <Subject>Filosofia 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -5961,6 +5975,7 @@
       <Teacher>Nilson</Teacher>
       <Subject>Física 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>3</Duration>
       <Total_Duration>3</Total_Duration>
@@ -6129,6 +6144,7 @@
       <Teacher>Joyce</Teacher>
       <Subject>Geografia 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>2</Duration>
       <Total_Duration>2</Total_Duration>
@@ -8327,6 +8343,7 @@
       <Teacher>Mirélly</Teacher>
       <Subject>Matemática 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>2</Duration>
       <Total_Duration>2</Total_Duration>
@@ -8339,6 +8356,7 @@
       <Teacher>Mirélly</Teacher>
       <Subject>Matemática 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -9183,6 +9201,7 @@
       <Teacher>Joel</Teacher>
       <Subject>Língua Portuguesa e Literatura Brasileira 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>2</Duration>
       <Total_Duration>2</Total_Duration>
@@ -9195,6 +9214,7 @@
       <Teacher>Joel</Teacher>
       <Subject>Língua Portuguesa e Literatura Brasileira 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -9539,6 +9559,7 @@
       <Teacher>Leonardo</Teacher>
       <Subject>Sociologia 2</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>1</Duration>
       <Total_Duration>1</Total_Duration>
@@ -9551,6 +9572,7 @@
       <Teacher>Silvio</Teacher>
       <Subject>Quimica 1</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>2</Duration>
       <Total_Duration>2</Total_Duration>
@@ -9563,6 +9585,7 @@
       <Teacher>PSS-Biologia</Teacher>
       <Subject>Biologia 1</Subject>
       <Activity_Tag>manha</Activity_Tag>
+      <Activity_Tag>int</Activity_Tag>
       <Students>edifint-1026</Students>
       <Duration>2</Duration>
       <Total_Duration>2</Total_Duration>
@@ -29651,6 +29674,26 @@
       <Active>true</Active>
       <Comments></Comments>
     </ConstraintActivitiesPreferredTimeSlots>
+    <ConstraintTeachersMaxDaysPerWeek>
+      <Weight_Percentage>100</Weight_Percentage>
+      <Max_Days_Per_Week>3</Max_Days_Per_Week>
+      <Active>true</Active>
+      <Comments></Comments>
+    </ConstraintTeachersMaxDaysPerWeek>
+    <ConstraintStudentsSetMaxGapsPerDay>
+      <Weight_Percentage>100</Weight_Percentage>
+      <Max_Gaps>1</Max_Gaps>
+      <Students>Técnico Integrado em Edificações</Students>
+      <Active>true</Active>
+      <Comments></Comments>
+    </ConstraintStudentsSetMaxGapsPerDay>
+    <ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
+      <Weight_Percentage>100</Weight_Percentage>
+      <Max_Beginnings_At_Second_Hour>0</Max_Beginnings_At_Second_Hour>
+      <Students>Técnico Integrado em Edificações</Students>
+      <Active>true</Active>
+      <Comments></Comments>
+    </ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour>
   </Time_Constraints_List>
   <Space_Constraints_List>
     <ConstraintBasicCompulsorySpace>
