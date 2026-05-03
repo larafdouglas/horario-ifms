@@ -3048,8 +3048,8 @@
       <Subject>História da Arte, da Arquitetura e da Cidade II</Subject>
       <Activity_Tag>manha</Activity_Tag>
       <Students>arq1226</Students>
-      <Duration>1</Duration>
-      <Total_Duration>1</Total_Duration>
+      <Duration>4</Duration>
+      <Total_Duration>4</Total_Duration>
       <Id>52</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
       <Active>true</Active>
@@ -3064,7 +3064,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>53</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -3076,7 +3076,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>54</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -3088,7 +3088,7 @@
       <Total_Duration>1</Total_Duration>
       <Id>55</Id>
       <Activity_Group_Id>0</Activity_Group_Id>
-      <Active>true</Active>
+      <Active>false</Active>
       <Comments></Comments>
     </Activity>
     <Activity>
@@ -29339,6 +29339,167 @@
       <Active>true</Active>
       <Comments></Comments>
     </ConstraintMinDaysBetweenActivities>
+    <ConstraintActivitiesPreferredTimeSlots>
+      <Weight_Percentage>95</Weight_Percentage>
+      <Teacher></Teacher>
+      <Students></Students>
+      <Subject></Subject>
+      <Activity_Tag>manha</Activity_Tag>
+      <Duration></Duration>
+      <Number_of_Preferred_Time_Slots>35</Number_of_Preferred_Time_Slots>
+      <Preferred_Time_Slot>
+        <Day>SEG</Day>
+        <Hour>7:00 7:45</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEG</Day>
+        <Hour>7:45
+8:30</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEG</Day>
+        <Hour>8:30 9:15</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEG</Day>
+        <Hour>9:35
+10:20</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEG</Day>
+        <Hour>10:20 11:05</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEG</Day>
+        <Hour>11:05 11:50</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEG</Day>
+        <Hour>11:50 12:35</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>TER</Day>
+        <Hour>7:00 7:45</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>TER</Day>
+        <Hour>7:45
+8:30</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>TER</Day>
+        <Hour>8:30 9:15</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>TER</Day>
+        <Hour>9:35
+10:20</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>TER</Day>
+        <Hour>10:20 11:05</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>TER</Day>
+        <Hour>11:05 11:50</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>TER</Day>
+        <Hour>11:50 12:35</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUA</Day>
+        <Hour>7:00 7:45</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUA</Day>
+        <Hour>7:45
+8:30</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUA</Day>
+        <Hour>8:30 9:15</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUA</Day>
+        <Hour>9:35
+10:20</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUA</Day>
+        <Hour>10:20 11:05</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUA</Day>
+        <Hour>11:05 11:50</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUA</Day>
+        <Hour>11:50 12:35</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUI</Day>
+        <Hour>7:00 7:45</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUI</Day>
+        <Hour>7:45
+8:30</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUI</Day>
+        <Hour>8:30 9:15</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUI</Day>
+        <Hour>9:35
+10:20</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUI</Day>
+        <Hour>10:20 11:05</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUI</Day>
+        <Hour>11:05 11:50</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>QUI</Day>
+        <Hour>11:50 12:35</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEX</Day>
+        <Hour>7:00 7:45</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEX</Day>
+        <Hour>7:45
+8:30</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEX</Day>
+        <Hour>8:30 9:15</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEX</Day>
+        <Hour>9:35
+10:20</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEX</Day>
+        <Hour>10:20 11:05</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEX</Day>
+        <Hour>11:05 11:50</Hour>
+      </Preferred_Time_Slot>
+      <Preferred_Time_Slot>
+        <Day>SEX</Day>
+        <Hour>11:50 12:35</Hour>
+      </Preferred_Time_Slot>
+      <Active>true</Active>
+      <Comments></Comments>
+    </ConstraintActivitiesPreferredTimeSlots>
   </Time_Constraints_List>
   <Space_Constraints_List>
     <ConstraintBasicCompulsorySpace>
