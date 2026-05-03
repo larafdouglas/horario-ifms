@@ -1,0 +1,21 @@
+﻿Soft conflicts of 2026-2.fet
+Generated with FET 7.5.8 on 5/2/26 10:07 PM
+
+Number of broken soft constraints: 11
+Total soft conflicts: 14.85
+
+Soft conflicts list (in decreasing order):
+
+Time constraint activities preferred time slots broken for activity with id=56 (2 - Cibele - Optativa - Tópicos Especiais - Orientação - manha - arq1222) on 2 hours, increases conflicts total by 1.98
+Time constraint activities preferred time slots broken for activity with id=262 (2 - Rodrigo - Projeto Integrador 3 - manha - edifint-1024) on 2 hours, increases conflicts total by 1.98
+Time constraint activities preferred time slots broken for activity with id=483 (2 - Mirélly - Matemática 2 - manha - edifint-1026) on 2 hours, increases conflicts total by 1.98
+Time constraint activities preferred time slots broken for activity with id=584 (2 - PSS-Biologia - Biologia 2 - manha - edifint-1025) on 2 hours, increases conflicts total by 1.98
+Time constraint activities preferred time slots broken for activity with id=57 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=58 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=59 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=62 (1 - Cibele - Projeto de Interiores / Projeto V - manha - arq1222,arq1223) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=197 (1 - Claudeir - Tecnologia das Construções 2 - manha - edifint-1025) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=258 (1 - Matias - Mecânica dos Solos, Contenções e Fundações - manha - arq1226) on 1 hours, increases conflicts total by 0.99
+Time constraint activities preferred time slots broken for activity with id=456 (1 - Yujuan - Projeto de Tópicos Especiais de Informática 1 - manha - inf2025) on 1 hours, increases conflicts total by 0.99
+
+End of file.
