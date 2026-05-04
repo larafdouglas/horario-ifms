@@ -1,9 +1,16 @@
-ETAPA - RESTRIÇÕES APLICADAS ÀS TURMAS DE ARQUITETURA
-- Todas as atividades de Arquitetura foram restringidas à manhã.
-- Sábado foi proibido para Arquitetura, pois não aparece nos slots permitidos.
-- Turma de Arquitetura com maior carga horária: 1226.
-- Apenas essa turma recebeu 1 tempo extra no período da tarde.
-- Nenhuma restrição foi aplicada aos demais cursos.
+ETAPA 4 - TAGS POR CURSO/TURNO
+- Tags criadas:
+  * manha-arquitetura
+  * manha-integrado
+  * noite-proeja
+  * noite-licenciatura
+  * manha-tarde-arquitetura
+- A tag manha-tarde-arquitetura foi criada, mas NÃO aplicada automaticamente.
+- Arquitetura recebe manha-arquitetura.
+- Integrado recebe manha-integrado.
+- PROEJA recebe noite-proeja.
+- Licenciatura recebe noite-licenciatura.
+- Nenhuma restrição de horário foi gerada automaticamente.
 
 AVISOS:
 CH presencial, EAD e TS zerados em '#REF!'
@@ -61,10 +68,10 @@ Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': 
 Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '16', 'periodo': '16', 'obs_coord': 'Roberto/Junior', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
 Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '15', 'periodo': '15', 'obs_coord': 'Yujuan', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
 Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '16', 'periodo': '16', 'obs_coord': 'Murilo', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
-Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '15', 'periodo': '15', 'obs_coord': 'PSS/Karol', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '', 'ead': '0', 'ts': '0', 'professor': '', 'area': '15', 'periodo': '15', 'obs_coord': 'PSSKarol', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
 Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '13', 'ead': '0', 'ts': '0', 'professor': 'Mirélly', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
 Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '15', 'ead': '0', 'ts': '0', 'professor': 'Ewerton', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
-Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '26', 'ead': '0', 'ts': '0', 'professor': 'PSS/Estevão/Ana', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
+Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '26', 'ead': '0', 'ts': '0', 'professor': 'PSSEstevãoAna', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
 Disciplina vazia: {'curso': '', 'turma': '', 'disciplina': '', 'ch': '16', 'ead': '0', 'ts': '0', 'professor': '', 'area': '', 'periodo': '', 'obs_coord': '', 'obs_prof': '', 'cadastro': '', 'responsavel': '', '': ''}
 Professor vazio em 'Química 4'
 Professor vazio em 'Química 2'
@@ -80,3 +87,63 @@ Professor vazio em 'Sociologia 4'
 Professor vazio em 'Sociologia 4'
 Professor vazio em 'Sociologia da Educação'
 Professor vazio em 'Sociologia Urbana'
+Sem restrição de horário definida para atividade 6 - Empreendedorismo e Inovação - tec-subs-a-4026b (Tec. Subs. Administração)
+Sem restrição de horário definida para atividade 7 - Introdução à legislação para empresas - tec-subs-a-4026b (Tec. Subs. Administração)
+Sem restrição de horário definida para atividade 8 - Introdução ao Marketing - tec-subs-a-4026b (Tec. Subs. Administração)
+Sem restrição de horário definida para atividade 9 - Gestão da Produção e Logística - tec-subs-a-4026b (Tec. Subs. Administração)
+Sem restrição de horário definida para atividade 10 - Introdução à Contabilidade - tec-subs-a-4026b (Tec. Subs. Administração)
+Sem restrição de horário definida para atividade 11 - Marketing Digital e Mídias Sociais - tec-subs-a-4026b (Tec. Subs. Administração)
+Sem restrição de horário definida para atividade 12 - Gestão Ágil e de Projetos - tec-subs-a-4026b (tec. Subs. Administração)
+Sem restrição de horário definida para atividade 13 - Gestão da Qualidade e Serviços - tec-subs-a-4026b (tec. Subs. Administração)
+Sem restrição de horário definida para atividade 14 - Métodos Financeiros Aplicados à Administração - tec-subs-a-4026b (tec. Subs. Administração)
+Sem restrição de horário definida para atividade 15 - Empreendedorismo - logsub-4126b (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 16 - Espanhol Instrumental - logsub-4126b (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 17 - Gestão de Transportes (Frota e Modais) e Distribuição - logsub-4126b (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 18 - Gestão da Qualidade - logsub-4126b (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 19 - Planejamento Empresarial e Projetos Logísticos - logsub-4126b (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 20 - Sistemas de Informação Logística - logsub-4126b (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 21 - Gestão da Cadeia de Suprimentos - logsub-4126b (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 22 - Logística Internacional e Aduaneira - logsub-4126b (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 23 - Logística Reversa e Sustentabilidade - logsub-4126b (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 24 - Empreendedorismo - logsub-4126a (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 25 - Espanhol Instrumental - logsub-4126a (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 26 - Gestão de Transportes (Frota e Modais) e Distribuição - logsub-4126a (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 27 - Gestão da Qualidade - logsub-4126a (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 28 - Planejamento Empresarial e Projetos Logísticos - logsub-4126a (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 29 - Sistemas de Informação Logística - logsub-4126a (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 30 - Gestão da Cadeia de Suprimentos - logsub-4126a (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 31 - Logística Internacional e Aduaneira - logsub-4126a (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 32 - Logística Reversa e Sustentabilidade - logsub-4126a (Tecnico subs. em Logística)
+Sem restrição de horário definida para atividade 33 - Empreendedorismo e Inovação - tec-subs-a-4026a (Tec. Subs. Administração)
+Sem restrição de horário definida para atividade 34 - Introdução à legislação para empresas - tec-subs-a-4026a (Tec. Subs. Administração)
+Sem restrição de horário definida para atividade 35 - Introdução ao Marketing - tec-subs-a-4026a (Tec. Subs. Administração)
+Sem restrição de horário definida para atividade 36 - Gestão da Produção e Logística - tec-subs-a-4026a (Tec. Subs. Administração)
+Sem restrição de horário definida para atividade 37 - Introdução à Contabilidade - tec-subs-a-4026a (Tec. Subs. Administração)
+Sem restrição de horário definida para atividade 38 - Marketing Digital e Mídias Sociais - tec-subs-a-4026a (Tec. Subs. Administração)
+Sem restrição de horário definida para atividade 39 - Gestão Ágil e de Projetos - tec-subs-a-4026a (tec. Subs. Administração)
+Sem restrição de horário definida para atividade 40 - Gestão da Qualidade e Serviços - tec-subs-a-4026a (tec. Subs. Administração)
+Sem restrição de horário definida para atividade 41 - Métodos Financeiros Aplicados à Administração - tec-subs-a-4026a (tec. Subs. Administração)
+Sem restrição de horário definida para atividade 165 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 166 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 167 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 168 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 169 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 170 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 171 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 172 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 173 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 174 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 175 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 176 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 177 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 178 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 179 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 180 - #REF! - curso-ch-prof ()
+Sem restrição de horário definida para atividade 546 - Espanhol Básico I - cenid-5126 (CENID)
+Sem restrição de horário definida para atividade 547 - Espanhol Básico I - cenid-5126 (CENID)
+Sem restrição de horário definida para atividade 548 - Espanhol Básico I - cenid-5126 (CENID)
+Sem restrição de horário definida para atividade 549 - Espanhol Básico I - cenid-5126 (CENID)
+Sem restrição de horário definida para atividade 565 - Inglês Básico I - cenid-5026 (CENID)
+Sem restrição de horário definida para atividade 566 - Inglês Básico I - cenid-5026 (CENID)
+Sem restrição de horário definida para atividade 567 - Inglês Básico I - cenid-5026 (CENID)
+Sem restrição de horário definida para atividade 568 - Inglês Básico I - cenid-5026 (CENID)

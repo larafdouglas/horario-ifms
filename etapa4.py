@@ -486,33 +486,31 @@ def rooms_for_activity(course: str, turma: str, subject: str, tipo: str, row: di
         return ["Lab B3", "Lab B12", "Lab C9", "Lab C11"]
     return SALAS_GERAIS
 
+def tags_for_activity(course: str, turma: str, tipo: str):
+    """Define a Activity_Tag por curso/turno.
 
-# =========================================================
-# TAGS DE TURNO DAS ATIVIDADES
-# =========================================================
-
-def tags_for_activity(course: str, tipo: str):
-    """Define a Activity_Tag de acordo com o tipo e o curso."""
+    Tags criadas:
+    - manha-arquitetura
+    - manha-integrado
+    - noite-proeja
+    - noite-licenciatura
+    - manha-tarde-arquitetura: criada na lista, mas NÃO aplicada automaticamente.
+    """
     c = norm_key(course)
 
-    if tipo == "ead":
-        return ["EAD-manha"]
-
-    if tipo == "ts":
-        return ["TS-manha-e-tarde"]
+    if "arquitet" in c:
+        return ["manha-arquitetura"]
 
     if "integrado" in c:
-        return ["manha"]
-
-    if "arquitet" in c:
-        return ["manha"]
-
-    if "licenciatura" in c:
-        return ["noite"]
+        return ["manha-integrado"]
 
     if "proeja" in c:
-        return ["noite"]
+        return ["noite-proeja"]
 
+    if "licenciatura" in c:
+        return ["noite-licenciatura"]
+
+    # Outros cursos ficam sem tag automática nesta versão.
     return []
 
 def time_hours_for_activity(course: str, tipo: str):
@@ -539,90 +537,6 @@ def time_hours_for_activity(course: str, tipo: str):
 
     # Se o curso não for reconhecido, não restringe tempo para evitar erro.
     return []
-
-
-def write_activity_allowed_time_slots_constraint(f, activity_id: int, allowed_slots: list[tuple[str, str]], weight: int = 100, comments: str = ""):
-    """Restringe uma atividade a uma lista de slots permitidos.
-
-    Com Weight 100, funciona como bloqueio dos demais slots.
-    Usaremos isso apenas para turmas de Arquitetura nesta etapa.
-    """
-    if not allowed_slots:
-        return
-
-    f.write("    <ConstraintActivityPreferredTimeSlots>\n")
-    f.write(f"      <Weight_Percentage>{weight}</Weight_Percentage>\n")
-    f.write(f"      <Activity_Id>{activity_id}</Activity_Id>\n")
-    f.write(f"      <Number_of_Preferred_Time_Slots>{len(allowed_slots)}</Number_of_Preferred_Time_Slots>\n")
-    for day, hour in allowed_slots:
-        f.write("      <Preferred_Time_Slot>\n")
-        f.write(f"        <Preferred_Day>{xml(day)}</Preferred_Day>\n")
-        f.write(f"        <Preferred_Hour>{xml(hour)}</Preferred_Hour>\n")
-        f.write("      </Preferred_Time_Slot>\n")
-    f.write("      <Active>true</Active>\n")
-    f.write(f"      <Comments>{xml(comments)}</Comments>\n")
-    f.write("    </ConstraintActivityPreferredTimeSlots>\n")
-
-
-def turma_arquitetura_from_activity(activity: dict) -> str:
-    """Retorna a turma de Arquitetura a partir do campo Students, ex.: arq1222 -> 1222."""
-    students = str(activity.get("students", "")).lower()
-    m = re.search(r"arq(\d{4})", students)
-    if m:
-        return m.group(1)
-
-    # Fallback para casos em que o grupo venha apenas como número.
-    m = re.search(r"\b(122[1-6])\b", students)
-    if m:
-        return m.group(1)
-
-    return ""
-
-
-def is_atividade_arquitetura(activity: dict) -> bool:
-    if turma_arquitetura_from_activity(activity):
-        return True
-    course = norm_key(activity.get("course", ""))
-    return "arquitet" in course
-
-
-def calcular_turma_arquitetura_maior_ch(activities: list[dict]) -> str:
-    carga_por_turma = {}
-    for a in activities:
-        turma = turma_arquitetura_from_activity(a)
-        if not turma:
-            continue
-        carga_por_turma[turma] = carga_por_turma.get(turma, 0) + int(a.get("duration", 0))
-
-    if not carga_por_turma:
-        return ""
-
-    # Maior CH; em empate, pega a turma de menor número para ser previsível.
-    return sorted(carga_por_turma.items(), key=lambda item: (-item[1], item[0]))[0][0]
-
-
-def slots_manha_sem_sabado() -> list[tuple[str, str]]:
-    return [
-        (day, hour)
-        for day in DAYS
-        if day != "SAB"
-        for hour in PERIOD_HOURS["manha"]
-    ]
-
-
-def slots_manha_mais_um_tempo_tarde_sem_sabado() -> list[tuple[str, str]]:
-    slots = slots_manha_sem_sabado()
-
-    # Apenas um horário a mais no período da tarde.
-    # Aqui usamos o primeiro tempo listado em PERIOD_HOURS["tarde"].
-    hora_extra_tarde = PERIOD_HOURS["tarde"][0] if PERIOD_HOURS.get("tarde") else None
-    if hora_extra_tarde:
-        for day in DAYS:
-            if day != "SAB":
-                slots.append((day, hora_extra_tarde))
-
-    return slots
-
 
 def write_students_not_available_constraint(f, students: str, allowed_hours: list[str]):
     """Restringe turno por turma/grupo usando tag reconhecida pelo FET.
@@ -770,7 +684,7 @@ def main():
                     "teachers": profs,
                     "subject": subj,
                     "students": group_name,
-                    "activity_tags": tags_for_activity(curso, tipo),
+                    "activity_tags": tags_for_activity(curso, turma, tipo),
                     "duration": dur,
                     "id": next_id,
                     "rooms": rooms_for_activity(curso, turma, subj, tipo, row),
@@ -794,7 +708,13 @@ def main():
         f.write("  </Subjects_List>\n")
 
         f.write("  <Activity_Tags_List>\n")
-        for tag in ["EAD-manha", "TS-manha-e-tarde", "manha", "noite"]:
+        for tag in [
+            "manha-arquitetura",
+            "manha-integrado",
+            "noite-proeja",
+            "noite-licenciatura",
+            "manha-tarde-arquitetura",
+        ]:
             f.write("    <Activity_Tag>\n")
             f.write(f"      <Name>{xml(tag)}</Name>\n")
             f.write("      <Printable>true</Printable>\n")
@@ -868,42 +788,20 @@ def main():
         f.write("      <Active>true</Active>\n")
         f.write("      <Comments></Comments>\n")
         f.write("    </ConstraintBasicCompulsoryTime>\n")
-
-        # ETAPA: restrições somente para turmas de Arquitetura.
-        # - Todas as turmas de Arquitetura: somente manhã, sem sábado.
-        # - A turma de Arquitetura com maior carga horária recebe 1 tempo extra da tarde.
-        turma_arq_maior_ch = calcular_turma_arquitetura_maior_ch(activities)
-
-        for a in activities:
-            if not is_atividade_arquitetura(a):
-                continue
-
-            turma_arq = turma_arquitetura_from_activity(a)
-            if turma_arq and turma_arq == turma_arq_maior_ch:
-                allowed_slots = slots_manha_mais_um_tempo_tarde_sem_sabado()
-                comentario = f"Arquitetura {turma_arq}: manhã + 1 tempo da tarde; sábado proibido"
-            else:
-                allowed_slots = slots_manha_sem_sabado()
-                comentario = f"Arquitetura {turma_arq or 'sem turma'}: manhã; sábado proibido"
-
-            write_activity_allowed_time_slots_constraint(
-                f,
-                a["id"],
-                allowed_slots,
-                weight=100,
-                comments=comentario,
-            )
-
-        # Demais cursos seguem sem restrições específicas.
+        # Restrições de turno por turma/grupo, usando horários NÃO disponíveis.
+        # Isso evita a tag inválida ConstraintStudentsSetPreferredTimeSlots.
+        for students, hours in student_time_rules.items():
+            write_students_not_available_constraint(f, students, hours)
 
         # Professores concentrados em até 3 dias e sem buracos.
         # Usar restrições globais/coletivas reduz drasticamente a quantidade
         # de restrições individuais no arquivo FET.
-        # write_teachers_max_days_constraint(f, 3)
-        # write_teachers_no_gaps_constraints(f)
+        write_teachers_max_days_constraint(f, 3)
+        write_teachers_no_gaps_constraints(f)
 
-        # Sem validação de time_hours nesta versão-base sem restrições de turno.
-
+        for a in activities:
+            if not a.get("time_hours", []):
+                warnings.append(f"Sem restrição de horário definida para atividade {a['id']} - {a['subject']} - {a['students']} ({a.get('course', '')})")
         f.write("  </Time_Constraints_List>\n")
 
         f.write("  <Space_Constraints_List>\n")
@@ -912,9 +810,20 @@ def main():
         f.write("      <Active>true</Active>\n")
         f.write("      <Comments></Comments>\n")
         f.write("    </ConstraintBasicCompulsorySpace>\n")
-        # Restrições de sala removidas nesta versão-base.
-        # Vamos aplicar depois, passo a passo, se necessário.
-
+        for a in activities:
+            rooms = unique_list(a.get("rooms", []))
+            if not rooms:
+                warnings.append(f"Sem sala definida para atividade {a['id']} - {a['subject']} - {a['students']}")
+                continue
+            f.write("    <ConstraintActivityPreferredRooms>\n")
+            f.write("      <Weight_Percentage>100</Weight_Percentage>\n")
+            f.write(f"      <Activity_Id>{a['id']}</Activity_Id>\n")
+            f.write(f"      <Number_of_Preferred_Rooms>{len(rooms)}</Number_of_Preferred_Rooms>\n")
+            for room in rooms:
+                f.write(f"      <Preferred_Room>{xml(room)}</Preferred_Room>\n")
+            f.write("      <Active>true</Active>\n")
+            f.write("      <Comments></Comments>\n")
+            f.write("    </ConstraintActivityPreferredRooms>\n")
         f.write("  </Space_Constraints_List>\n")
 
         f.write("</fet>\n")
@@ -926,14 +835,20 @@ def main():
     except Exception as exc:
         warnings.append(f"ERRO XML: arquivo gerado não está bem-formado: {exc}")
 
-    turma_arq_maior_ch_relatorio = calcular_turma_arquitetura_maior_ch(activities)
     audit_lines = [
-        "ETAPA - RESTRIÇÕES APLICADAS ÀS TURMAS DE ARQUITETURA",
-        "- Todas as atividades de Arquitetura foram restringidas à manhã.",
-        "- Sábado foi proibido para Arquitetura, pois não aparece nos slots permitidos.",
-        f"- Turma de Arquitetura com maior carga horária: {turma_arq_maior_ch_relatorio or 'não identificada'}.",
-        "- Apenas essa turma recebeu 1 tempo extra no período da tarde.",
-        "- Nenhuma restrição foi aplicada aos demais cursos.",
+        "ETAPA 4 - TAGS POR CURSO/TURNO",
+        "- Tags criadas:",
+        "  * manha-arquitetura",
+        "  * manha-integrado",
+        "  * noite-proeja",
+        "  * noite-licenciatura",
+        "  * manha-tarde-arquitetura",
+        "- A tag manha-tarde-arquitetura foi criada, mas NÃO aplicada automaticamente.",
+        "- Arquitetura recebe manha-arquitetura.",
+        "- Integrado recebe manha-integrado.",
+        "- PROEJA recebe noite-proeja.",
+        "- Licenciatura recebe noite-licenciatura.",
+        "- Nenhuma restrição de horário foi gerada automaticamente.",
     ]
 
     warnings_path = out.with_suffix(".warnings.txt")
